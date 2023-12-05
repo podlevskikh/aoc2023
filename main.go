@@ -15,6 +15,8 @@ func main() {
 	//res := sAOC.CalculateDay03FirstPart()
 	//res := sAOC.CalculateDay03SecondPart()
 	//res := sAOC.CalculateDay04FirstPart()
-	res := sAOC.CalculateDay04SecondPart()
+	//res := sAOC.CalculateDay04SecondPart()
+	//res := sAOC.CalculateDay05FirstPart()
+	res := sAOC.CalculateDay05SecondPart()
 	fmt.Println(res)
 }
