@@ -124,7 +124,3 @@ func (s *Service) CalculateDay03SecondPart() int {
 
 	return res
 }
-
-func (s *Service) isDigit(r rune) bool {
-	return r >= '0' && r <= '9'
-}

@@ -27,9 +27,6 @@ func (s *Service) CalculateDay05FirstPart() int {
 			from, _ := strconv.Atoi(line[1])
 			dur, _ := strconv.Atoi(line[2])
 			mapper[from] = []int{to, dur}
-			/*for k := 0; k < dur; k++ {
-				mapper[from + k] = to + k
-			}*/
 		}
 
 		newSeeds := []int{}
