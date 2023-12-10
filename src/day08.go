@@ -67,6 +67,9 @@ func (s *Service) CalculateDay08SecondPart() int64 {
 	}
 
 	res := int64(0)
+	for {
+		res++
+	}
 	for _, cPos := range currentPositions {
 		resPos := int64(0)
 		for i := 0; ; i++ {
